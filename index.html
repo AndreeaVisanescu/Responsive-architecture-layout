@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive Layout Projects">
+    <meta name="keywords" content="Responsive, Layout, Projects">
+    <meta name="author" content="Andreea Visanescu">
+    <link rel="stylesheet" href="./resources/styles.css">
+    <link href="./bundles/font-awesome/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> <!-- font-family: 'Open Sans Condensed', sans-serif;-->
+    <link href="http://fonts.cdnfonts.com/css/skia" rel="stylesheet"> <!--font-family: 'Skia', sans-serif;-->
+    <title>Responsive Layout Projects</title>
+</head>
+<body>
+    <div id="bodyWrapper" class="body-wrapper">
+
+        <header>
+            <section>
+                <div class="go">go.arch</div>
+                <div class="decorative-line"></div>
+                <div><i class="fab fa-instagram"></i></div>
+                <div><i class="fab fa-facebook-f"></i></div>
+            </section>
+
+            <nav class="desktop-nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT US</a>
+            </nav>
+
+            <nav id="seeMenu" class="mobile-nav">
+                <button><i class="fas fa-bars"></i></button>
+            </nav>
+
+            <div class="title-box">PROJECTS</div>
+        </header>
+
+        <section class="gallery">
+            <article class="article1">
+                <img class="background" src="./assets/concert-hall.jpg" alt="concert hall image">
+                <div class="article-title">CONCERT HALL <span>IN NEW YORK</span></div>
+                <div class="rotate-text architecture">ARCHITECTURE</div>
+            </article>
+            <article class="article2">
+                <img class="background" src="./assets/bedroom-2.jpg" alt="bedroom-2 image">
+                <div class="article-title">MODERN BEDROOM <span>IN GORIZIA</span></div>
+                <div class="rotate-text interior">INTERIOR</div>
+            </article>
+            <article class="article3">
+                <img class="background" src="./assets/hotel.jpg" alt="hotel image">
+                <div class="article-title">MODERN HOTEL <span>IN LONDON</span></div>
+                <div class="rotate-text architecture">ARCHITECTURE</div>
+            </article>
+            <article class="article4">
+                <img class="background" src="./assets/bedroom-1.jpg" alt="bedroom-1 image">
+                <div class="article-title">MODERN BEDROOM <span>IN PARIS</span></div>
+                <div class="rotate-text interior">INTERIOR</div>
+            </article>
+            <article class="article5">
+                <img class="background" src="./assets/library.jpg" alt="library image">
+                <div class="article-title">MODERN LIBRARY <span>IN CHICAGO</span></div>
+                <div class="rotate-text architecture">ARCHITECTURE</div>
+            </article>
+            <article class="article6">
+                <img class="background" src="./assets/kitchen.jpg" alt="kitchen image">
+                <div class="article-title">MODERN KITCHEN <span>IN BUCHAREST</span></div>
+                <div class="rotate-text interior">INTERIOR</div>
+            </article>
+        </section>
+
+        <footer>
+            <button class="footer-button">MORE PROJECTS</button>
+
+            <div class="footer-text">GET           
+                <span>IN TOUCH</span>
+            </div>
+            
+            <form action="">  
+                <div class="name-email">
+                    <div>
+                        <label for="nameInput"></label>
+                        <input required class="input-validation" type="text" name="name_input" id="nameInput" placeholder="Name" />
+                    </div>
+                    <div>
+                        <label for="emailInput"></label>
+                        <input class="input-validation" type="email" id="emailInput" placeholder="Email" />
+                    </div>
+                </div>
+
+                <div class="phone-company">
+                    <div>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone">
+                    </div>
+                    <div>
+                        <label for="companyInput"></label>
+                        <input required class="input-validation" type="text" name="company_input" id="companyInput" placeholder="Company" />
+                    </div>
+                </div>
+
+                <div class="message">
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                </div>
+
+                <div class="form-button-container">
+                    <button class="form-button">SEND<i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+            </form>
+        </footer>
+    </div>
+    
+
+    <div id="mobileMenu" class="wrapper-button-click hidden">
+        <div class="go">go.arch</div>
+        
+        <div class="icon-menu">
+            <button id="removeMenu"><i class="fas fa-times"></i></button>
+        </div>
+
+        <section class="mobile-menu">
+                <a href="#"><b>Home</b></a>
+                <a href="#">About us</a>
+                <a href="#">Projects</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+        </section>
+
+        <footer class="mobile-footer">
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-facebook-f"></i></span>
+        </footer>
+    </div>
+
+    <script src="./resources/main.js"></script>
+    
+    <noscript>
+        Your browser currently does not support or has JS disabled.
+    </noscript>
+</body>
+</html>
