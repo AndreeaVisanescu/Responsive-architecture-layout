@@ -95,7 +95,7 @@ div i.fab {
     color: #fff;
     font-family: 'Skia', sans-serif;
 }
-.article1, .article2, .article3, .article4, .article5, .article6 {
+.article {
     display: inline-flex;
     width: 33%;
     height: 100%;
@@ -108,9 +108,7 @@ div i.fab {
 .background:hover {
     opacity: 1;
 }
-
-/* mult mai ok sa folosesti o clasa comuna aici, date tale vor fi incarcate dinamic, iar css-ul tau nu poate sa depinda de asta */
-.article1 img, .article2 img, .article3 img, .article4 img, .article5 img, .article6 img {
+.article img {
     width: 100%;
 }
 .article-title {
