@@ -108,6 +108,8 @@ div i.fab {
 .background:hover {
     opacity: 1;
 }
+
+/* mult mai ok sa folosesti o clasa comuna aici, date tale vor fi incarcate dinamic, iar css-ul tau nu poate sa depinda de asta */
 .article1 img, .article2 img, .article3 img, .article4 img, .article5 img, .article6 img {
     width: 100%;
 }
