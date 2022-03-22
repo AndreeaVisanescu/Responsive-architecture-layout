@@ -1,2 +1,2 @@
-![Architecture](https://user-images.githubusercontent.com/74706560/110796755-fb642080-8280-11eb-80da-663acfff9060.png)
+![Go arch](https://user-images.githubusercontent.com/74706560/159538381-5395993a-dff3-4f38-a81a-ff95c65cbce9.JPG)
 # Responsive-architecture-layout
